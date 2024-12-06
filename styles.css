@@ -11,6 +11,11 @@
     --Grey800: hsl(0, 0%, 12%); 
     --Grey900: hsl(0, 0%, 8%);
 }
+body{
+     display: grid;
+    place-items: center;
+    height: 100vh;
+}
 main{
     box-sizing: border-box;
     max-width: 720px;
